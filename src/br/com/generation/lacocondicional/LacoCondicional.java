@@ -10,25 +10,26 @@ public class LacoCondicional {
 		
 		double nota1, nota2, media;
 		
-		System.out.println("Digite a 1º Nota: ");
+		System.out.println("Digite a 1Âº Nota: ");
 		nota1 = ler.nextDouble();
 		
-		System.out.println("Digite a 2º Nota: ");
+		System.out.println("Digite a 2Âº Nota: ");
 		nota2 = ler.nextDouble();
 		
 		media = (nota1 + nota2) / 2;
 		
     	if(media >= 9.0) {
-    		System.out.println("\nAprovado com mérito" + "\nMédia: " + media);
+    		System.out.println("\nAprovado com mÃ©rito" + "\nMÃ©dia: " + media);
 		}
     	else if(media >=6.0 && media <9.0) {
-    		System.out.println("\nAprovado" + "\nMédia: " + media);
+    		System.out.println("\nAprovado" + "\nMÃ©dia: " + media);
     	}
     	else if(media >= 3.0 && media <6.0) {
-    		System.out.println("\nRecuperação" + "\nMédia: " + media);
+    		System.out.println("\nRecuperaÃ§Ã£o" + "\nMÃ©dia: " + media);
     	}
     	else {
-    		System.out.println("\nReprovado" + "\nMédia: " + media);
+    		System.out.println("\nReprovado" + "\nMÃ©dia: " + media);
+		System.out.println("\nAlterando cÃ³digo... diretamente no GitHub");
     	}
     	ler.close();
 	}
