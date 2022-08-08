@@ -29,7 +29,6 @@ public class LacoCondicional {
     	}
     	else {
     		System.out.println("\nReprovado" + "\nMédia: " + media);
-		System.out.println("\nAlterando código... diretamente no GitHub");
     	}
     	ler.close();
 	}
